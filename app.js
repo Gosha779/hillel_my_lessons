@@ -34,15 +34,29 @@ if(num1 === 6) {
     alert(num1);
 }else {
 
-    console.log("NE SPRAVILOS")
+    console.log("Alarm")
 }
 let num_ = 10;
-console.log(num_ < 100 ? "Menshe 100" : "Dilshe abo ravno")
+console.log(num_ < 100 ? "Menshe 100" : "Bilshe abo ravno")
 let com = `name: ${"Ytllo"}! he is ${c1} years old`;
 for(let i=1;i<=10;i++) {
     console.error(com); 
                  
 }
 
-console.log(typeof(n));
-Math.trunc
+let d = "2";
+let s = 100+d;
+console.log(typeof(s));
+
+let q = 232;
+let income = "232";
+let result = q!=income;
+console.log(result);
+
+if(5=='5'){
+    console.log("Yes")
+}else{
+
+    console.log("No")
+}
+
